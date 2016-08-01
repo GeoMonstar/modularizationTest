@@ -15,6 +15,11 @@
 		854FA33C1D4F2AA50067902F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 854FA33A1D4F2AA50067902F /* LaunchScreen.storyboard */; };
 		854FA3471D4F2AA50067902F /* runtimeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 854FA3461D4F2AA50067902F /* runtimeTestTests.m */; };
 		854FA3521D4F2AA50067902F /* runtimeTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 854FA3511D4F2AA50067902F /* runtimeTestUITests.m */; };
+		854FA3611D4F2B150067902F /* MediatorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 854FA3601D4F2B150067902F /* MediatorVC.m */; };
+		854FA3641D4F2B240067902F /* FirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 854FA3631D4F2B240067902F /* FirstVC.m */; };
+		854FA3671D4F2B360067902F /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 854FA3661D4F2B360067902F /* SecondVC.m */; };
+		854FA36A1D4F3B1F0067902F /* FirstComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 854FA3691D4F3B1F0067902F /* FirstComponent.m */; };
+		854FA36D1D4F3B3E0067902F /* SecondComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 854FA36C1D4F3B3E0067902F /* SecondComponent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		854FA34D1D4F2AA50067902F /* runtimeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = runtimeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		854FA3511D4F2AA50067902F /* runtimeTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = runtimeTestUITests.m; sourceTree = "<group>"; };
 		854FA3531D4F2AA50067902F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		854FA35F1D4F2B150067902F /* MediatorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediatorVC.h; sourceTree = "<group>"; };
+		854FA3601D4F2B150067902F /* MediatorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediatorVC.m; sourceTree = "<group>"; };
+		854FA3621D4F2B240067902F /* FirstVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstVC.h; sourceTree = "<group>"; };
+		854FA3631D4F2B240067902F /* FirstVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstVC.m; sourceTree = "<group>"; };
+		854FA3651D4F2B360067902F /* SecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
+		854FA3661D4F2B360067902F /* SecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
+		854FA3681D4F3B1F0067902F /* FirstComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstComponent.h; sourceTree = "<group>"; };
+		854FA3691D4F3B1F0067902F /* FirstComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstComponent.m; sourceTree = "<group>"; };
+		854FA36B1D4F3B3E0067902F /* SecondComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondComponent.h; sourceTree = "<group>"; };
+		854FA36C1D4F3B3E0067902F /* SecondComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondComponent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +120,16 @@
 				854FA3301D4F2AA50067902F /* AppDelegate.m */,
 				854FA3321D4F2AA50067902F /* ViewController.h */,
 				854FA3331D4F2AA50067902F /* ViewController.m */,
+				854FA35F1D4F2B150067902F /* MediatorVC.h */,
+				854FA3601D4F2B150067902F /* MediatorVC.m */,
+				854FA3621D4F2B240067902F /* FirstVC.h */,
+				854FA3631D4F2B240067902F /* FirstVC.m */,
+				854FA3681D4F3B1F0067902F /* FirstComponent.h */,
+				854FA3691D4F3B1F0067902F /* FirstComponent.m */,
+				854FA3651D4F2B360067902F /* SecondVC.h */,
+				854FA3661D4F2B360067902F /* SecondVC.m */,
+				854FA36B1D4F3B3E0067902F /* SecondComponent.h */,
+				854FA36C1D4F3B3E0067902F /* SecondComponent.m */,
 				854FA3351D4F2AA50067902F /* Main.storyboard */,
 				854FA3381D4F2AA50067902F /* Assets.xcassets */,
 				854FA33A1D4F2AA50067902F /* LaunchScreen.storyboard */,
@@ -270,8 +295,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				854FA3641D4F2B240067902F /* FirstVC.m in Sources */,
 				854FA3341D4F2AA50067902F /* ViewController.m in Sources */,
+				854FA3611D4F2B150067902F /* MediatorVC.m in Sources */,
+				854FA36D1D4F3B3E0067902F /* SecondComponent.m in Sources */,
 				854FA3311D4F2AA50067902F /* AppDelegate.m in Sources */,
+				854FA3671D4F2B360067902F /* SecondVC.m in Sources */,
+				854FA36A1D4F3B1F0067902F /* FirstComponent.m in Sources */,
 				854FA32E1D4F2AA50067902F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "MediatorVC.h"
 @interface ViewController ()
 
 @end
@@ -16,12 +16,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
+- (IBAction)goFirst:(id)sender {
+  
+    UIViewController *vc =[[MediatorVC sharedInstance]gotofirstVC:@"2"];
+    
+    
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (IBAction)goSecond:(id)sender {
+    UIViewController *vc = [[MediatorVC sharedInstance]gotosecondVC:@"1"];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
 
 @end
